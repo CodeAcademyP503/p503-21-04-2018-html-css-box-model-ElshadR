@@ -1,0 +1,22 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	height: 5000px;
+	font-size: $fontsize;
+	font-family: $fontfamily;
+}
+
+.container {
+	width: $contwidth;
+	height: 60px;
+	margin: 0px auto;
+}
+
+.clear {
+	clear: both;
+}
+.inline-block {
+	display: inline-block;
+	margin-right: -4px;
+	margin-bottom: -4px;
+}

@@ -1,0 +1,144 @@
+#contacts {
+	position: relative;
+
+	.map {
+		background-image: url(../images/map.png);
+		background-size: cover;
+		height: 700px;
+		position: absolute;
+		z-index: -1;
+		width: 93.7%;
+		top: -67px;
+		opacity: .1;
+	}
+
+	.container {
+		.header {
+			text-align: center;
+			margin: 67px 0px;
+
+			h1 {
+				font-size: 2.4em;
+				color: #42464f;
+			}
+		}
+
+		.number {
+			text-align: center;
+
+
+			a {
+				padding: 0px 15px;
+				text-decoration: none;
+				color: $colorGreen;
+				font-size: 1.4em;
+			}
+		}
+
+		.include {
+			margin-top: 50px;
+
+			.name {
+
+				input {
+					outline: none;
+					width: 350px;
+					height: 40px;
+					float: left;
+					border: 1px solid black;
+					margin-right: 62px;
+					border-radius: 5px;
+					box-sizing: border-box;
+					padding-left: 10px;
+				}
+			}
+
+			.phone {
+
+				input {
+					outline: none;
+					width: 350px;
+					height: 40px;
+					float: left;
+					border: 1px solid black;
+					margin-right: 62px;
+					border-radius: 5px;
+					box-sizing: border-box;
+					padding-left: 10px;
+				}
+			}
+
+			.e-mail {
+
+				input {
+					outline: none;
+					width: 350px;
+					height: 40px;
+					float: left;
+					border: 1px solid black;
+					border-radius: 5px;
+					box-sizing: border-box;
+					padding-left: 10px;
+				}
+			}
+
+			.message {
+				text-align: center;
+
+				textarea {
+					margin: 40px 0px;
+					width: 100%;
+					height: 40px;
+					border-radius: 5px;
+				}
+
+				button {
+					width: 250px;
+					height: 57px;
+					box-sizing: border-box;
+					border-radius: 8px;
+					padding: 10px;
+					cursor: pointer;
+					outline: none;
+					border: 0px;
+					color: white;
+					background: $colorGreen;
+					transition: all .3s ease;
+					font-size: 1.3em;
+					font: bold;
+
+					&:hover {
+						background: #a9dc56;
+					}
+				}
+			}
+		}
+
+		.ox {
+			text-align: center;
+			position: relative;
+
+			img {
+				position: absolute;
+				top: 124px;
+				left: 513px;
+			}
+
+			i {
+				position: absolute;
+				left: 575px;
+				color: $colorGreen;
+				top: 144px;
+				padding: 10px;
+				font-size: 1.2em;
+				transition: all .3s ease;
+
+				&:hover {
+					top: 138px;
+				}
+			}
+
+			
+		}
+	}
+}

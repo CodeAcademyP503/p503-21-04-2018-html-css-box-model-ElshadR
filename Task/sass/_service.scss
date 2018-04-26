@@ -1,0 +1,78 @@
+#services {
+    padding-top: 108px;
+    height: 570px;
+    background-color: #f5f5f6;
+
+    .container {
+        .header {
+            text-align: center;
+            font-size: 1.4em;
+        }
+
+        .service-iner {
+            width: 280px;
+            height: 172px;
+            float: left;
+            margin: -5px 13px 40px 0px;
+            text-align: center;
+            box-sizing: border-box;
+            padding: 10px;
+
+            i {
+                font-size: 45px;
+                color: $colorGreen;
+                transition: all .5s ease;
+            }
+
+            .yazi {
+                padding: 20px 10px 10px 10px;
+
+                a {
+                    color: black;
+                    text-decoration: none;
+                    border-bottom: 2px solid transparent;
+                    transition: all .5s ease;
+
+                    &:hover {
+                        color: $colorGreen;
+                        border-bottom: 2px solid $colorGreen;
+                    }
+                }
+            }
+
+            &:hover {
+                i {
+                    color: #a7db56;
+                }
+            }
+        }
+
+        .ox {
+            background: red;
+            position: absolute;
+            text-align: center;
+            left: 596px;
+            margin: -1px;
+
+            img {
+                position: absolute;
+            }
+
+            i {
+                position: absolute;
+                top: 18px;
+                left: 60px;
+                padding: 10px;
+                font-size: 1.2em;
+                color: $colorGreen;
+                transition: all .3s ease;
+
+                &:hover {
+                    top: 24px;
+                }
+
+              
+            }
+        }
+    }
+}

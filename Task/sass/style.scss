@@ -1,0 +1,15 @@
+$colorGreen: #42b773;
+$contwidth:1180px;
+$fontsize:15px;
+$fontfamily: sans-serif;
+
+@import "umumi.scss";
+
+@import "topbar.scss";
+@import "count.scss";
+@import "about.scss";
+@import "service.scss";
+@import "design.scss";
+@import "gallery.scss";
+@import "bottom.scss";
+@import "contact.scss";

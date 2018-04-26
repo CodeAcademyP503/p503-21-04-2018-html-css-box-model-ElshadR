@@ -1,0 +1,841 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 5000px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1180px;
+  height: 60px;
+  margin: 0px auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.inline-block, #count .container .num, #count .container .num div, #count .container .num > a, #count .container .num p, #about .container .cevre, #about .container .cevre .img {
+  display: inline-block;
+  margin-right: -4px;
+  margin-bottom: -4px;
+}
+
+#top-bar {
+  transition: all .5s ease;
+}
+#top-bar .container {
+  margin: 59px;
+  z-index: 100;
+}
+#top-bar .container .logo {
+  position: relative;
+  width: 511px;
+  height: 60px;
+  float: left;
+}
+#top-bar .container .panel {
+  position: relative;
+  box-sizing: border-box;
+  padding: 20px 0px;
+  width: 660px;
+  height: 55px;
+  float: right;
+  display: flex;
+}
+#top-bar .container .panel ul {
+  margin: 0px;
+  padding: 0px;
+  float: right;
+  list-style: none;
+  opacity: 300;
+}
+#top-bar .container .panel ul div {
+  display: inline-block;
+  margin-right: 20px;
+  z-index: 101;
+}
+#top-bar .container .panel ul div:first-child a li {
+  color: #42b773;
+}
+#top-bar .container .panel ul div a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+#top-bar .container .panel ul div a li {
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style: none;
+}
+#top-bar .container .panel ul div a:hover {
+  border-bottom: 1px solid #42b773;
+  color: #42b773;
+}
+#top-bar .container .panel ul div i {
+  cursor: pointer;
+  transition: all .5s ease;
+}
+#top-bar .container .panel ul div ul {
+  position: absolute;
+  top: 50px;
+  transition: all .8s ease;
+  left: 38px;
+  z-index: 99;
+  opacity: 0;
+  border-top: 3px solid #42b773;
+  color: black;
+  box-sizing: border-box;
+  padding: 15px;
+  padding-left: 15px;
+}
+#top-bar .container .panel ul div ul li {
+  width: 150px;
+  height: 30px;
+}
+#top-bar .container .panel ul div ul li a {
+  color: #42b773;
+}
+#top-bar .container .panel ul div ul li a:hover {
+  list-style: none;
+  border-bottom: none;
+  text-decoration: none;
+}
+#top-bar .container .panel ul div:hover {
+  color: #42b773;
+}
+#top-bar .container .panel ul div:hover a {
+  color: #42b773;
+}
+#top-bar .container .panel ul div:hover i {
+  transform: rotate(180deg);
+}
+#top-bar .container .panel ul div:hover ul {
+  z-index: 200;
+  opacity: 1;
+}
+#top-bar .container .panel .bagla {
+  width: 660px;
+  height: 200px;
+  position: absolute;
+  z-index: 100;
+  top: 50px;
+}
+
+#count .container .num {
+  width: 580px;
+  height: 130px;
+  position: relative;
+  margin-top: 40px;
+  top: 47px;
+  bottom: 50px;
+  float: left;
+}
+#count .container .num div {
+  width: 130px;
+  height: 130px;
+  border: 3px solid #dbe4e7;
+  border-radius: 100%;
+  text-align: center;
+  margin-left: 5px;
+  transition: all .5s ease;
+}
+#count .container .num h1 {
+  position: absolute;
+  display: inline-block;
+  top: 26px;
+  left: 54px;
+  color: #dbe4e7;
+}
+#count .container .num > a {
+  position: absolute;
+  top: 10px;
+  text-decoration: none;
+  left: 161px;
+  font-size: 1.2em;
+  color: #42b773;
+  transition: all .5s ease;
+  border-bottom: 2px solid transparent;
+}
+#count .container .num > a:hover {
+  border-bottom: 2px solid black;
+  color: black;
+}
+#count .container .num p {
+  width: 380px;
+  position: relative;
+  top: -21px;
+  left: 32px;
+}
+#count .container .num:hover div {
+  background-color: #a9dc56;
+  border: 3px solid #a9dc56;
+}
+#count .container .num:hover h1 {
+  color: white;
+}
+
+#about {
+  height: 650px;
+  background: linear-gradient(180deg, #42b773 20%, #a7db56 100%);
+  margin-top: 150px;
+  position: relative;
+}
+#about .container {
+  text-align: center;
+}
+#about .container .ox {
+  position: absolute;
+  left: 596px;
+  top: -68px;
+}
+#about .container .ox i {
+  position: absolute;
+  color: white;
+  font-size: 1.2em;
+  left: 72px;
+  top: 27px;
+  transition: all .3s ease;
+}
+#about .container .ox i:hover {
+  top: 33px;
+}
+#about .container .header {
+  text-align: center;
+  color: white;
+  padding: 30px 0px;
+}
+#about .container .cevre {
+  width: 395px;
+  height: 436px;
+  text-align: center;
+  float: left;
+}
+#about .container .cevre .img {
+  width: 270px;
+  height: 270px;
+  background-color: transparent;
+  border-radius: 100%;
+  position: relative;
+}
+#about .container .cevre .img img {
+  border-radius: 100%;
+}
+#about .container .cevre .a {
+  display: inline-block;
+  color: white;
+  padding: 10px;
+}
+#about .container .cevre .a a {
+  font-size: 1.4em;
+  transition: all .5s ease;
+  border-bottom: 2px solid transparent;
+}
+#about .container .cevre .a a:hover {
+  border-bottom: 2px solid black;
+  color: black;
+}
+#about .container .cevre p {
+  width: 369px;
+  box-sizing: border-box;
+  padding: 0px 0px 20px 30px;
+}
+#about .container .ox-2 {
+  position: relative;
+  text-align: center;
+  top: 84px;
+}
+#about .container .ox-2 i {
+  position: absolute;
+  top: 17px;
+  left: 573px;
+  font-size: 1.2em;
+  color: white;
+  padding: 10px;
+  transition: all .3s ease;
+}
+#about .container .ox-2 i:hover {
+  top: 23px;
+}
+
+#services {
+  padding-top: 108px;
+  height: 570px;
+  background-color: #f5f5f6;
+}
+#services .container .header {
+  text-align: center;
+  font-size: 1.4em;
+}
+#services .container .service-iner {
+  width: 280px;
+  height: 172px;
+  float: left;
+  margin: -5px 13px 40px 0px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+}
+#services .container .service-iner i {
+  font-size: 45px;
+  color: #42b773;
+  transition: all .5s ease;
+}
+#services .container .service-iner .yazi {
+  padding: 20px 10px 10px 10px;
+}
+#services .container .service-iner .yazi a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all .5s ease;
+}
+#services .container .service-iner .yazi a:hover {
+  color: #42b773;
+  border-bottom: 2px solid #42b773;
+}
+#services .container .service-iner:hover i {
+  color: #a7db56;
+}
+#services .container .ox {
+  background: red;
+  position: absolute;
+  text-align: center;
+  left: 596px;
+  margin: -1px;
+}
+#services .container .ox img {
+  position: absolute;
+}
+#services .container .ox i {
+  position: absolute;
+  top: 18px;
+  left: 60px;
+  padding: 10px;
+  font-size: 1.2em;
+  color: #42b773;
+  transition: all .3s ease;
+}
+#services .container .ox i:hover {
+  top: 24px;
+}
+
+#design {
+  padding: 60px 0px;
+  height: 904px;
+  background-image: url(../images/page-1.jpg);
+  background-repeat: no-repeat;
+}
+#design .container .pool {
+  box-sizing: border-box;
+  padding-top: 200px;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  text-shadow: 0 0 2px black;
+  z-index: 90;
+}
+#design .container .pool h2 {
+  font-size: 2em;
+  text-shadow: 0 0 2px black;
+}
+#design .container .pool h1 {
+  font-size: 3em;
+  text-shadow: 0 0 2px black;
+}
+#design .container .pool button {
+  width: 220px;
+  height: 57px;
+  box-sizing: border-box;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  margin-top: 50px;
+  border-radius: 8px;
+  background: linear-gradient(to right, #42b773 0%, #a9dc56 60%);
+  transition: all 0.3s ease;
+}
+#design .container .pool button:hover {
+  background: linear-gradient(to right, #42b773 1000%, #a9dc56 0%);
+}
+#design .container .pool div {
+  position: absolute;
+  display: inline-block;
+  top: 896px;
+  left: 516px;
+}
+#design .container .pool div i {
+  position: absolute;
+  top: 15px;
+  left: 56px;
+  padding: 15px;
+  border-radius: 100%;
+  font-size: 1.2em;
+  transition: all .3s ease;
+  color: #42b773;
+}
+#design .container .pool div i:hover {
+  top: 21px;
+}
+#design .container .pool div img {
+  position: absolute;
+}
+
+#gallery .container .header {
+  text-align: center;
+  font-size: 1.2em;
+  color: #42464f;
+  padding: 50px 0px 30px 0px;
+}
+#gallery .gallery-iner {
+  margin-top: 150px;
+  height: 500px;
+}
+#gallery .gallery-iner .bir {
+  height: 222px;
+  display: inline-block;
+  float: left;
+}
+#gallery .gallery-iner .bir div {
+  width: 168px;
+  height: 111px;
+  cursor: pointer;
+  position: relative;
+}
+#gallery .gallery-iner .bir div img {
+  width: 100%;
+  transition: all .8s ease;
+}
+#gallery .gallery-iner .bir div h1 {
+  position: absolute;
+  color: white;
+  background-color: #42b773;
+  border-radius: 5px;
+  top: 29px;
+  left: 45px;
+  font-size: 1.6em;
+  opacity: 0;
+  transition: all .8s ease;
+}
+#gallery .gallery-iner .bir div:hover h1 {
+  opacity: 1;
+}
+#gallery .gallery-iner .bir div:hover img {
+  opacity: 0.5;
+}
+#gallery .gallery-iner .iki {
+  float: left;
+  height: 222px;
+  width: 336px;
+  cursor: pointer;
+  position: relative;
+}
+#gallery .gallery-iner .iki img {
+  width: 100%;
+}
+#gallery .gallery-iner .iki h1 {
+  position: absolute;
+  color: white;
+  background-color: #42b773;
+  border-radius: 5px;
+  top: 82px;
+  left: 136px;
+  font-size: 1.6em;
+  opacity: 0;
+  transition: all .8s ease;
+}
+#gallery .gallery-iner .iki:hover h1 {
+  opacity: 1;
+}
+#gallery .gallery-iner .iki:hover img {
+  opacity: 0.5;
+}
+#gallery .gallery-iner .uc {
+  float: left;
+  height: 222px;
+  width: 337px;
+}
+#gallery .gallery-iner .uc div {
+  cursor: pointer;
+  float: left;
+  width: 168.5px;
+  height: 111px;
+  cursor: pointer;
+  position: relative;
+}
+#gallery .gallery-iner .uc div img {
+  width: 100%;
+}
+#gallery .gallery-iner .uc div h1 {
+  position: absolute;
+  color: white;
+  background-color: #42b773;
+  border-radius: 5px;
+  top: 29px;
+  left: 45px;
+  font-size: 1.6em;
+  opacity: 0;
+  transition: all .8s ease;
+}
+#gallery .gallery-iner .uc div:hover h1 {
+  opacity: 1;
+}
+#gallery .gallery-iner .uc div:hover img {
+  opacity: 0.5;
+}
+#gallery .gallery-iner .dort {
+  float: left;
+  height: 222px;
+  width: 336px;
+  cursor: pointer;
+  position: relative;
+}
+#gallery .gallery-iner .dort img {
+  width: 100%;
+}
+#gallery .gallery-iner .dort h1 {
+  position: absolute;
+  color: white;
+  background-color: #42b773;
+  border-radius: 5px;
+  top: 82px;
+  left: 136px;
+  font-size: 1.6em;
+  opacity: 0;
+  transition: all .8s ease;
+}
+#gallery .gallery-iner .dort:hover h1 {
+  opacity: 1;
+}
+#gallery .gallery-iner .dort:hover img {
+  opacity: 0.5;
+}
+#gallery .gallery-iner .bes {
+  height: 222px;
+  display: inline-block;
+  float: left;
+}
+#gallery .gallery-iner .bes div {
+  width: 168px;
+  height: 111px;
+  cursor: pointer;
+  position: relative;
+}
+#gallery .gallery-iner .bes div img {
+  width: 100%;
+}
+#gallery .gallery-iner .bes div h1 {
+  position: absolute;
+  color: white;
+  background-color: #42b773;
+  border-radius: 5px;
+  top: 29px;
+  left: 45px;
+  font-size: 1.6em;
+  opacity: 0;
+  transition: all .8s ease;
+}
+#gallery .gallery-iner .bes div:hover h1 {
+  opacity: 1;
+}
+#gallery .gallery-iner .bes div:hover img {
+  opacity: 0.5;
+}
+#gallery .gallery-iner .alti {
+  float: left;
+  height: 222px;
+  width: 336px;
+  cursor: pointer;
+  position: relative;
+}
+#gallery .gallery-iner .alti img {
+  width: 100%;
+}
+#gallery .gallery-iner .alti h1 {
+  position: absolute;
+  color: white;
+  background-color: #42b773;
+  border-radius: 5px;
+  top: 82px;
+  left: 136px;
+  font-size: 1.6em;
+  opacity: 0;
+  transition: all .8s ease;
+}
+#gallery .gallery-iner .alti:hover h1 {
+  opacity: 1;
+}
+#gallery .gallery-iner .alti:hover img {
+  opacity: 0.5;
+}
+#gallery .gallery-iner .yeddi {
+  height: 222px;
+  display: inline-block;
+  float: left;
+}
+#gallery .gallery-iner .yeddi div {
+  width: 168px;
+  height: 111px;
+  cursor: pointer;
+  position: relative;
+}
+#gallery .gallery-iner .yeddi div img {
+  width: 100%;
+}
+#gallery .gallery-iner .yeddi div h1 {
+  position: absolute;
+  color: white;
+  background-color: #42b773;
+  border-radius: 5px;
+  top: 29px;
+  left: 45px;
+  font-size: 1.6em;
+  opacity: 0;
+  transition: all .8s ease;
+}
+#gallery .gallery-iner .yeddi div:hover h1 {
+  opacity: 1;
+}
+#gallery .gallery-iner .yeddi div:hover img {
+  opacity: 0.5;
+}
+#gallery .gallery-iner .sekkiz {
+  float: left;
+  height: 222px;
+  width: 336px;
+  cursor: pointer;
+  position: relative;
+}
+#gallery .gallery-iner .sekkiz img {
+  width: 100%;
+}
+#gallery .gallery-iner .sekkiz h1 {
+  position: absolute;
+  color: white;
+  background-color: #42b773;
+  border-radius: 5px;
+  top: 82px;
+  left: 136px;
+  font-size: 1.6em;
+  opacity: 0;
+  transition: all .8s ease;
+}
+#gallery .gallery-iner .sekkiz:hover h1 {
+  opacity: 1;
+}
+#gallery .gallery-iner .sekkiz:hover img {
+  opacity: 0.5;
+}
+#gallery .gallery-iner .doqquz {
+  height: 222px;
+  display: inline-block;
+  float: left;
+}
+#gallery .gallery-iner .doqquz div {
+  width: 168px;
+  height: 111px;
+  cursor: pointer;
+  position: relative;
+}
+#gallery .gallery-iner .doqquz div img {
+  width: 100%;
+}
+#gallery .gallery-iner .doqquz div h1 {
+  position: absolute;
+  color: white;
+  background-color: #42b773;
+  border-radius: 5px;
+  top: 29px;
+  left: 45px;
+  font-size: 1.6em;
+  opacity: 0;
+  transition: all .8s ease;
+}
+#gallery .gallery-iner .doqquz div:hover h1 {
+  opacity: 1;
+}
+#gallery .gallery-iner .doqquz div:hover img {
+  opacity: 0.5;
+}
+#gallery .gallery-iner .on {
+  float: left;
+  height: 222px;
+  width: 336px;
+  cursor: pointer;
+  position: relative;
+}
+#gallery .gallery-iner .on img {
+  width: 100%;
+}
+#gallery .gallery-iner .on h1 {
+  position: absolute;
+  color: white;
+  background-color: #42b773;
+  border-radius: 5px;
+  top: 82px;
+  left: 136px;
+  font-size: 1.6em;
+  opacity: 0;
+  transition: all .8s ease;
+}
+#gallery .gallery-iner .on:hover h1 {
+  opacity: 1;
+}
+#gallery .gallery-iner .on:hover img {
+  opacity: 0.5;
+}
+
+#bottom-bar {
+  margin-top: 40px;
+  text-align: center;
+  position: relative;
+  position: relative;
+}
+#bottom-bar .ox img {
+  position: absolute;
+  top: -42px;
+  left: 596px;
+}
+#bottom-bar .ox i {
+  color: white;
+  position: relative;
+  padding-top: 10px;
+  top: -25px;
+  transition: all .3s ease;
+}
+#bottom-bar .ox i:hover {
+  top: -19px;
+}
+#bottom-bar .app {
+  background: #42b773;
+}
+#bottom-bar .app i {
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  padding: 13px;
+  margin: 10px;
+  font-size: 1.6em;
+  color: white;
+  transition: all .3s ease;
+}
+#bottom-bar .app i:hover {
+  background-color: #a9dc56;
+}
+
+#contacts {
+  position: relative;
+}
+#contacts .map {
+  background-image: url(../images/map.png);
+  background-size: cover;
+  height: 700px;
+  position: absolute;
+  z-index: -1;
+  width: 93.7%;
+  top: -67px;
+  opacity: .1;
+}
+#contacts .container .header {
+  text-align: center;
+  margin: 67px 0px;
+}
+#contacts .container .header h1 {
+  font-size: 2.4em;
+  color: #42464f;
+}
+#contacts .container .number {
+  text-align: center;
+}
+#contacts .container .number a {
+  padding: 0px 15px;
+  text-decoration: none;
+  color: #42b773;
+  font-size: 1.4em;
+}
+#contacts .container .include {
+  margin-top: 50px;
+}
+#contacts .container .include .name input {
+  outline: none;
+  width: 350px;
+  height: 40px;
+  float: left;
+  border: 1px solid black;
+  margin-right: 62px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+#contacts .container .include .phone input {
+  outline: none;
+  width: 350px;
+  height: 40px;
+  float: left;
+  border: 1px solid black;
+  margin-right: 62px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+#contacts .container .include .e-mail input {
+  outline: none;
+  width: 350px;
+  height: 40px;
+  float: left;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+#contacts .container .include .message {
+  text-align: center;
+}
+#contacts .container .include .message textarea {
+  margin: 40px 0px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+#contacts .container .include .message button {
+  width: 250px;
+  height: 57px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  color: white;
+  background: #42b773;
+  transition: all .3s ease;
+  font-size: 1.3em;
+  font: bold;
+}
+#contacts .container .include .message button:hover {
+  background: #a9dc56;
+}
+#contacts .container .ox {
+  text-align: center;
+  position: relative;
+}
+#contacts .container .ox img {
+  position: absolute;
+  top: 124px;
+  left: 513px;
+}
+#contacts .container .ox i {
+  position: absolute;
+  left: 575px;
+  color: #42b773;
+  top: 144px;
+  padding: 10px;
+  font-size: 1.2em;
+  transition: all .3s ease;
+}
+#contacts .container .ox i:hover {
+  top: 138px;
+}

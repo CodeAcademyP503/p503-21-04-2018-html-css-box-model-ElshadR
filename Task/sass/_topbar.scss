@@ -1,0 +1,123 @@
+
+#top-bar {
+    transition: all .5s ease;
+    .container {
+        margin: 59px;
+        z-index: 100;
+
+        .logo {
+            position: relative;
+            width: 511px;
+            height: 60px;
+            float: left;
+        }
+
+        .panel {
+            position: relative;
+            box-sizing: border-box;
+            padding: 20px 0px;
+            width: 660px;
+            height: 55px;
+            float: right;
+            display: flex;
+
+            ul {
+                margin: 0px;
+                padding: 0px;
+                float: right;
+                list-style: none;
+                opacity: 300;
+
+                div {
+                    display: inline-block;
+                    margin-right: 20px;
+                    z-index: 101;
+
+                    &:first-child {
+                        a {
+                            li {
+                                color: $colorGreen;
+                            }
+                        }
+                    }
+
+                    a {
+                        display: inline-block;
+                        text-decoration: none;
+                        color: black;
+
+                        li {
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            list-style: none;
+                        }
+
+                        &:hover {
+                            border-bottom: 1px solid $colorGreen;
+                            color: $colorGreen;
+                        }
+                    }
+
+                    i {
+                        cursor: pointer;
+                        transition: all .5s ease;
+                    }
+
+                    ul {
+                        position: absolute;
+                        top: 50px;
+                        transition: all .8s ease;
+                        left: 38px;
+                        z-index: 99;
+                        opacity: 0;
+                        border-top: 3px solid $colorGreen;
+                        color: black;
+                        box-sizing: border-box;
+                        padding: 15px;
+                        padding-left: 15px;
+
+                        li {
+                            width: 150px;
+                            height: 30px;
+
+                            a {
+                                color: $colorGreen;
+                            }
+
+                            a:hover {
+                                list-style: none;
+                                border-bottom: none;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        color: $colorGreen;
+
+                        a {
+                            color: $colorGreen;
+                        }
+
+                        i {
+                            transform: rotate(180deg);
+                        }
+
+                        ul {
+                            z-index: 200;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+
+            .bagla {
+                width: 660px;
+                height: 200px;
+                position: absolute;
+                z-index: 100;
+                top: 50px;
+            }
+        }
+    }
+}

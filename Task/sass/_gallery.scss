@@ -1,0 +1,386 @@
+#gallery {
+
+    .container {
+        .header {
+            text-align: center;
+            font-size: 1.2em;
+            color: #42464f;
+            padding: 50px 0px 30px 0px;
+        }
+    }
+
+    .gallery-iner {
+        margin-top: 150px;
+        height: 500px;
+
+        .bir {
+            height: 222px;
+            display: inline-block;
+            float: left;
+
+
+            div {
+                width: 168px;
+                height: 111px;
+                cursor: pointer;
+                position: relative;
+
+                img {
+                    width: 100%;
+                    transition: all .8s ease;
+                }
+
+                h1 {
+                    position: absolute;
+                    color: white;
+                    background-color: $colorGreen;
+                    border-radius: 5px;
+                    top: 29px;
+                    left: 45px;
+                    font-size: 1.6em;
+                    opacity: 0;
+                    transition: all .8s ease;
+                }
+
+                &:hover {
+                    h1 {
+                        opacity: 1;
+                    }
+
+                    img {
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+
+        .iki {
+            float: left;
+            height: 222px;
+            width: 336px;
+            cursor: pointer;
+            position:relative;
+            img {
+
+                width: 100%;
+            }
+
+            h1 {
+                position: absolute;
+                color: white;
+                background-color: $colorGreen;
+                border-radius: 5px;
+                top: 82px;
+                left: 136px;
+                font-size: 1.6em;
+                opacity: 0;
+                transition: all .8s ease;
+            }
+
+            &:hover {
+                h1 {
+                    opacity: 1;
+                }
+
+                img {
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        .uc {
+            float: left;
+            height: 222px;
+            width: 337px;
+
+            div {
+                cursor: pointer;
+                float: left;
+                width: 168.5px;
+                height: 111px;
+                cursor: pointer;
+                position: relative;
+
+
+                img {
+                    width: 100%;
+                }
+
+                h1 {
+                    position: absolute;
+                    color: white;
+                    background-color: $colorGreen;
+                    border-radius: 5px;
+                    top: 29px;
+                    left: 45px;
+                    font-size: 1.6em;
+                    opacity: 0;
+                    transition: all .8s ease;
+                }
+
+                &:hover {
+                    h1 {
+                        opacity: 1;
+                    }
+
+                    img {
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+
+        .dort {
+            float: left;
+            height: 222px;
+            width: 336px;
+            cursor: pointer;
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+
+            h1 {
+                position: absolute;
+                color: white;
+                background-color: $colorGreen;
+                border-radius: 5px;
+                top: 82px;
+                left: 136px;
+                font-size: 1.6em;
+                opacity: 0;
+                transition: all .8s ease;
+            }
+
+            &:hover {
+                h1 {
+                    opacity: 1;
+                }
+
+                img {
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        .bes {
+            height: 222px;
+            display: inline-block;
+            float: left;
+
+            div {
+                width: 168px;
+                height: 111px;
+                cursor: pointer;
+                position: relative;
+
+                img {
+                    width: 100%;
+                }
+
+                h1 {
+                    position: absolute;
+                    color: white;
+                    background-color: $colorGreen;
+                    border-radius: 5px;
+                    top: 29px;
+                    left: 45px;
+                    font-size: 1.6em;
+                    opacity: 0;
+                    transition: all .8s ease;
+                }
+
+                &:hover {
+                    h1 {
+                        opacity: 1;
+                    }
+
+                    img {
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+
+        .alti {
+            float: left;
+            height: 222px;
+            width: 336px;
+            cursor: pointer;
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+
+            h1 {
+                position: absolute;
+                color: white;
+                background-color: $colorGreen;
+                border-radius: 5px;
+                top: 82px;
+                left: 136px;
+                font-size: 1.6em;
+                opacity: 0;
+                transition: all .8s ease;
+            }
+
+            &:hover {
+                h1 {
+                    opacity: 1;
+                }
+
+                img {
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        .yeddi {
+            height: 222px;
+            display: inline-block;
+            float: left;
+
+            div {
+                width: 168px;
+                height: 111px;
+                cursor: pointer;
+                position: relative;
+
+                img {
+                    width: 100%;
+                }
+
+                h1 {
+                    position: absolute;
+                    color: white;
+                    background-color: $colorGreen;
+                    border-radius: 5px;
+                    top: 29px;
+                    left: 45px;
+                    font-size: 1.6em;
+                    opacity: 0;
+                    transition: all .8s ease;
+                }
+
+                &:hover {
+                    h1 {
+                        opacity: 1;
+                    }
+
+                    img {
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+
+        .sekkiz {
+            float: left;
+            height: 222px;
+            width: 336px;
+            cursor: pointer;
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+
+            h1 {
+                position: absolute;
+                color: white;
+                background-color: $colorGreen;
+                border-radius: 5px;
+                top: 82px;
+                left: 136px;
+                font-size: 1.6em;
+                opacity: 0;
+                transition: all .8s ease;
+            }
+
+            &:hover {
+                h1 {
+                    opacity: 1;
+                }
+
+                img {
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        .doqquz {
+            height: 222px;
+            display: inline-block;
+            float: left;
+
+            div {
+                width: 168px;
+                height: 111px;
+                cursor: pointer;
+                position: relative;
+
+                img {
+                    width: 100%;
+                }
+
+                h1 {
+                    position: absolute;
+                    color: white;
+                    background-color: $colorGreen;
+                    border-radius: 5px;
+                    top: 29px;
+                    left: 45px;
+                    font-size: 1.6em;
+                    opacity: 0;
+                    transition: all .8s ease;
+                }
+
+                &:hover {
+                    h1 {
+                        opacity: 1;
+                    }
+
+                    img {
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+
+        .on {
+            float: left;
+            height: 222px;
+            width: 336px;
+            cursor: pointer;
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+
+            h1 {
+                position: absolute;
+                color: white;
+                background-color: $colorGreen;
+                border-radius: 5px;
+                top: 82px;
+                left: 136px;
+                font-size: 1.6em;
+                opacity: 0;
+                transition: all .8s ease;
+            }
+
+            &:hover {
+                h1 {
+                    opacity: 1;
+                }
+
+                img {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}

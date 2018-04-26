@@ -1,0 +1,72 @@
+#design {
+	padding: 60px 0px;
+	height: 904px;
+	background-image: url(../images/page-1.jpg);
+	background-repeat: no-repeat;
+
+	.container {
+		.pool {
+			box-sizing: border-box;
+			padding-top: 200px;
+			text-align: center;
+			position: relative;
+			color: #fff;
+			text-shadow: 0 0 2px black;
+			z-index: 90;
+
+			h2 {
+				font-size: 2em;
+				text-shadow: 0 0 2px black;
+			}
+
+			h1 {
+				font-size: 3em;
+				text-shadow: 0 0 2px black;
+			}
+
+			button {
+				width: 220px;
+				height: 57px;
+				box-sizing: border-box;
+				padding: 10px;
+				cursor: pointer;
+				outline: none;
+				border: 0px;
+				margin-top: 50px;
+				border-radius: 8px;
+				background: linear-gradient(to right, $colorGreen 0%, #a9dc56 60%);
+				transition: all 0.3s ease;
+
+				&:hover {
+					background: linear-gradient(to right, $colorGreen 1000%, #a9dc56 0%);
+				}
+			}
+
+			div {
+				position: absolute;
+				display: inline-block;
+				top: 896px;
+				left: 516px;
+
+				i {
+					position: absolute;
+					top: 15px;
+					left: 56px;
+					padding: 15px;
+					border-radius: 100%;
+					font-size: 1.2em;
+					transition: all .3s ease;
+					color: $colorGreen;
+
+					&:hover {
+						top: 21px;
+					}
+				}
+
+				img {
+					position: absolute;
+				}
+			}
+		}
+	}
+}
